@@ -1,0 +1,21 @@
+/* tác động  selcector chưa truy cập */
+.click_me:link {
+  color: chocolate;
+}
+/* tác động  selcector đã truy cập */
+.click_me:visited {
+  color: violet;
+}
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+}
+h2:target {
+  color: blue;
+}
